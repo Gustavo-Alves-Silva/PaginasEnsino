@@ -1,44 +1,68 @@
-body, html{
+body,
+html {
     padding: 0;
     margin: 0;
     background-color: #FFFFFF;
 }
 
-.ensinoMedioIntroducao { 
+.ensinoMedioIntroducao {
     width: 800px;
     display: inline-block;
     margin-left: 50px;
 }
-#ensinoMedio{
+
+#ensinoMedio {
     padding: 0;
     margin: 0;
-    width: 100%;
-    background-color:  #284b63;
+    width: 100%;    
+    background-color: #284b63;
     border: 0;
+    color: white;
+    text-align: center;
 }
-.ensinoMedioCursos { 
+
+.ensinoMedioCursos {
     width: 800px;
     display: inline-block;
     margin-left: 50px;
 
 }
 
-#ensinoMedio3{
+#ensinoMedio3 {
     padding: 0;
     margin: 0;
     width: 100%;
-    background-color:  #284b63;
+    background-color: #284b63;
     border: 0;
 }
 
-.TiposMedio{
+.TiposMedio {
     width: 850px;
     padding: 0;
     margin: 0;
-    background-color:  #284b63;
+    background-color: #284b63;
     border: 0;
 }
-#paragrafroEnsinoMedio{
+
+#paragrafroEnsinoMedio {
     margin-left: 50px;
     width: 1200px;
+}
+
+.divTelaEM1,
+.divTelaEM2,.divTelaEMterceirao{
+    width: 900px;
+}
+
+.divTelaEm1geral,
+.divTelaEMGeral2 {
+    display: flex;
+}
+
+h3 {
+    color: #FFFFFF;
+    text-align: center;
+}
+.card2{
+    width: 8000px;
 }
